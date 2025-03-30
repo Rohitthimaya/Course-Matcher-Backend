@@ -15,7 +15,7 @@ function Matches() {
       }
 
       try {
-        const response = await fetch("http://localhost:3000/api/courses/matches/", {
+        const response = await fetch("https://course-matcher-backend.onrender.com/api/courses/matches/", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
