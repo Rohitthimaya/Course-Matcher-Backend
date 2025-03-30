@@ -16,7 +16,7 @@ function AddCourse() {
       }
 
       try {
-        const response = await fetch("http://localhost:3000/api/courses/all", {
+        const response = await fetch("https://course-matcher-backend.onrender.com/api/courses/all", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
@@ -59,7 +59,7 @@ function AddCourse() {
     }
 
     try {
-      const response = await fetch("http://localhost:3000/api/courses/add", {
+      const response = await fetch("https://course-matcher-backend.onrender.com/api/courses/add", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
