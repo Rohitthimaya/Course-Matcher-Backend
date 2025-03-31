@@ -48,7 +48,7 @@ function Courses() {
     }
 
     try {
-      const response = await fetch(`http://localhost:3000/api/courses/courses/delete/${courseId}`, {
+      const response = await fetch(`https://course-matcher-backend.onrender.com/api/courses/courses/delete/${courseId}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
